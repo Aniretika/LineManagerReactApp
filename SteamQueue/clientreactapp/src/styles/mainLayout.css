@@ -1,0 +1,76 @@
+.main-block
+{
+    box-sizing: border-box;
+    height: 100%!important;
+    width: 80%;
+    margin: 0 auto;
+    padding: 35px;
+    padding-bottom: 60px;
+    background-color: rgba(225, 165, 224, 0.2);
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    color: #ffffff;
+}
+
+p
+{
+    font-size: medium;
+    color: #ffffff;
+}
+
+.greetings-handler
+{
+    padding: 10px;
+}
+﻿.MuiIcon-root {
+    font-size: 2.3rem !important;
+    width: 0;
+    color: #35bd5b;
+}
+
+.MuiInputBase-input {
+    color: white!important;
+}
+
+
+.MuiSvgIcon-root {
+    color: white !important;
+}
+
+.MuiToolbar-root .MuiTypography-caption
+{
+    color: white !important;
+}
+
+.MuiInput-underline:before {
+    border-bottom: 1px solid white!important;
+}
+
+.MuiTableCell-body {
+    color: white!important;
+}
+.MuiTableSortLabel-root.MuiTableSortLabel-active, 
+.MuiTableSortLabel-root.MuiTableSortLabel-active.MuiTableSortLabel-root.MuiTableSortLabel-active, 
+.MuiTableSortLabel-root:hover, 
+.MuiTableSortLabel-icon {
+    color: #35bd5b !important;
+}
+@media only screen and (max-width: 1146px) {
+    div .main-table {
+        max-width: 100% !important;
+    }
+}
+.material-icons, .MuiIcon-root
+{
+    color: #ffffff!important;
+}
+.MuiTableCell-root
+{
+    z-index: 3!important;
+}

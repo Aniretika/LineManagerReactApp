@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased!important;
+    -moz-osx-font-smoothing: grayscale!important;
+    background-repeat: no-repeat!important;
+    background: linear-gradient(135deg, #004d7a, #04122b, #040d21, #191e46, #481f49)!important;
+    background-attachment: fixed!important; 
+}
+
+.ui.dropdown .menu>.item {
+  width: 200px;
+}
+.ui.inverted.top.fixed.menu, .ui.inverted.bottom.fixed.menu{
+  /* background-image: linear-gradient(135deg, #18122c, #15122c, #1b122c)!important; */
+  background-color: #1b1832!important
+}
+
+.item::before{
+  background: none!important;
+}
+
+
+
+.ui.dropdown .menu
+{
+  margin: 20px 0px!important;
+  background-color: #252146!important;
+
+}
+.ui.menu .ui.dropdown .menu>.item span
+{
+  color:#ffffff!important;
+}
+.ui.top.left.pointing.dropdown>.menu:after {
+  top: -100em!important;
+}
+.menu>.item .icon:not(.dropdown)
+{
+  color: #ffffff!important;
+}
+
+/* 
+.container {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+}
+.container > form {
+  width: 70%;
+  border: 1px solid #dfdfdf;
+  padding: 20px;
+  border-radius: 5px;
+  background: #fff;
+} */
+/* pre {
+  width: 70%;
+  color: #fff;
+  font-size: larger;
+} */
+
+
+p {
+  color: red;
+}
+
+.ui.menu.fixed{
+  z-index: 5!important;
+}

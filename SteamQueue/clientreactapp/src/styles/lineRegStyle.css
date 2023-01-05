@@ -1,0 +1,232 @@
+.main-register-block
+{
+    box-sizing: border-box;
+    height: fit-content!important;
+    height: 100%!important;
+    width: 50%;
+    margin: 0 auto;
+    padding: 35px;
+    padding-bottom: 60px;
+    background-color: rgba(225, 165, 224, 0.2);
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+
+}
+.confirm-box p
+{
+  color: black;
+}
+.main-register-block p
+{
+  color: red;
+}
+.main-table
+{
+  height: 100%;
+}
+
+.rs-picker-default .rs-picker-toggle
+{
+  z-index: 0!important;
+}
+.Mui-disabled
+{
+  background-color: #2d3748;
+  -webkit-text-fill-color: #ffffff!important;
+  border-color: #4a5568;
+  border-style: solid;
+  border-radius: 10px!important;
+  width: fit-content;
+}
+.MuiSvgIcon-root
+{
+  color: #ffffff
+}
+.reg-line, .reg-account
+{
+  display: flex;
+  flex-direction: column;
+}
+.signature-label
+{
+  color: #f2faff;
+  text-align: left;
+  padding: 10px 0;
+}
+.submit-button
+{
+
+  margin: 20px 60px;
+  background-color: #218d42!important;
+  color: #ffffff;
+  width: 267px;
+}
+.main-table
+{
+  width: '100%';
+  position: 'relative';
+}
+.main-header
+{
+  color: 'white';
+  font-size: '50px';
+  padding-bottom: 25px;
+}
+.line-register-form
+{
+  text-align: center;
+}
+.form-accout
+{
+  padding-left: '50px';
+  float: 'right';
+}
+
+.rs-picker
+{
+  display: block!important;
+
+}
+.rs-picker-toggle-textbox 
+{
+  background-color: #2d3748!important;
+  padding: 0.65rem 0.5rem!important;
+}
+.rs-picker-toggle.rs-btn{
+  padding: 0.65rem 0.5rem!important;
+
+}
+.rs-picker-default .rs-btn,
+.rs-picker-input .rs-btn,
+.rs-picker-default .rs-picker-toggle,
+.rs-picker-input .rs-picker-toggle .rs-btn-default
+{
+  background-color: #2d3748!important;
+}
+
+.rs-btn, .rs-btn-default
+{
+  color: whitesmoke!important;
+}
+.rs-picker-default .rs-picker-toggle.rs-btn 
+{
+  border-radius: 10px;
+  border: 2px solid #4a5568;
+  background-color: #2d3748!important;
+
+}
+.rs-picker-toggle-placeholder, .rs-picker-toggle-textbox, .rs-picker-toggle-placeholder
+{
+  color: #a0aec0!important;
+}
+
+input {
+  outline: none!important;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+  color: #f2faff!important;
+}
+
+p
+{
+    text-align: initial;
+}
+
+.rs-picker-default:not(.rs-picker-disabled) .rs-btn:hover, .rs-picker-default:not(.rs-picker-disabled) .rs-picker-toggle:hover, .rs-picker-default:not(.rs-picker-disabled) .rs-btn:focus, .rs-picker-default:not(.rs-picker-disabled) .rs-picker-toggle:focus, .rs-picker-default:not(.rs-picker-disabled) .rs-btn-active, .rs-picker-default:not(.rs-picker-disabled) .rs-picker-toggle-active
+ {
+  color: #a0aec0!important;
+  outline: none!important;
+  box-shadow: none!important;
+  border-color: #4a5568!important;
+}
+
+.select__menu
+{
+  margin-top: 1px!important;
+}
+
+.select__option
+{
+  color: #a0aec0!important;
+  background-color: transparent!important;
+}
+
+.select__control:hover, .select__control:focus, .select__control::selection, .select__control--menu-is-open{
+  outline: none;
+  box-shadow: none!important;
+  border: 2px solid #4a5568!important;
+}
+
+.select__option--is-focused
+{
+  background-color: #44406B!important;
+}
+
+.select__single-value
+{
+  color: #a0aec0!important;
+
+}
+
+.select__control, .select__control--is-focused{
+  color: #ffffff!important;
+  border-radius: 10px!important;
+  box-shadow: none!important;
+  border: 2px solid #4a5568!important;
+  background-color: #2d3748!important;
+}
+
+.select__menu{
+  background-color: #2d3748!important;
+}
+
+.select__indicator.svg:hover{
+  color: #ffffff;
+}
+.basic-single
+{
+  box-shadow: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition: background-color 600000s 0s, color 600000s 0s;
+}
+.rs-picker-has-value .rs-btn .rs-picker-toggle-value, .rs-picker-has-value .rs-picker-toggle .rs-picker-toggle-value
+{
+  color: #ffffff!important;
+}
+.css-tlfecz-indicatorContainer:hover {
+  color: #ffffff!important;
+}
+.submit-button
+{
+  border-radius: 10px;
+  padding: 10px;
+}
+@media (max-width: 960px) {
+  .main-register-block
+  {
+    width: 80%;
+  }
+}
+
+@media (max-width: 550px) {
+  .main-register-block
+  {
+    width: 90%;
+  }
+}
+
+.checkbox-datepicker{
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.rs-checkbox-wrapper::after{
+  margin-right: auto;
+}

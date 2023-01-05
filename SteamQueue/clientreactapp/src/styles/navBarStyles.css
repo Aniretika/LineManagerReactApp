@@ -1,0 +1,12 @@
+  .create-line-button
+  {
+    background: #4f61e8!important;
+  }
+  .telegram-button
+  {
+    background-color: transparent!important;
+  }
+  i.icon.user:before
+  {
+    padding: 10px;
+  }

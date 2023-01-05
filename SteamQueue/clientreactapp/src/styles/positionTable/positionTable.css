@@ -1,0 +1,6 @@
+.MuiInputBase-input, .MuiInput-input
+{
+    width: auto!important;
+    background-color: transparent!important;
+    border-color: transparent!important;
+}

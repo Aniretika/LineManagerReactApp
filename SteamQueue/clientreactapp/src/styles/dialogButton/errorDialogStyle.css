@@ -1,0 +1,5 @@
+.error-dialog-form .confirm-box button
+{
+    pointer-events: none;
+    background-color: transparent!important;
+}

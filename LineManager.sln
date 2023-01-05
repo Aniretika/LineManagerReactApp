@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteamQueue", "SteamQueue\SteamQueue.csproj", "{D1B3D588-BFEC-4204-ABCF-7E1AE208D0AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1B3D588-BFEC-4204-ABCF-7E1AE208D0AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1B3D588-BFEC-4204-ABCF-7E1AE208D0AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1B3D588-BFEC-4204-ABCF-7E1AE208D0AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1B3D588-BFEC-4204-ABCF-7E1AE208D0AC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14B09D11-D4F6-4416-94C9-5D4D8F284402}
+	EndGlobalSection
+EndGlobal
